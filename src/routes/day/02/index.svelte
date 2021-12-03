@@ -78,8 +78,8 @@
 	<input type=checkbox bind:value={isRealDataset}>
 	Toggle Real Data
 </label>
-<p> Results on First: {isRealDataset? 'Real': 'Test'} dataset</p>
+<p class="lead"> Results on First: {isRealDataset? 'Real': 'Test'} dataset</p>
 <p>{calcTotal(isRealDataset ? real : test)}</p>
-<p> Results on Second: {isRealDataset? 'Real': 'Test'} dataset</p>
+<p class="lead"> Results on Second: {isRealDataset? 'Real': 'Test'} dataset</p>
 <p>{calcAim(isRealDataset ? real : test)}</p>
 

@@ -45,7 +45,7 @@
 	<input type=checkbox bind:value={isRealDataset}>
 	Toggle Real Data
 </label>
-<p> Results on First: {isRealDataset? 'Real': 'Test'} dataset</p>
+<p class="lead"> Results on First: {isRealDataset? 'Real': 'Test'} dataset</p>
 <p>{numberOfIncrements(isRealDataset ? real : test)}</p>
-<p> Results on: {isRealDataset? 'Real': 'Test'} dataset</p>
+<p class="lead"> Results on: {isRealDataset? 'Real': 'Test'} dataset</p>
 <p>{numberOfIncrementsAvg(isRealDataset ? real : test)}</p>
