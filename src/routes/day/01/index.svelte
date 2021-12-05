@@ -21,7 +21,6 @@
 		let total = 0
 		array.forEach((v, i) => {
 			if (i > 2 && i < (array.length)) {
-				// console.log('avg', average(array, i-1), average(array, i))
 				total += (average(array, i-1) < average(array, i)) ? 1 : 0;
 			}
 		})
