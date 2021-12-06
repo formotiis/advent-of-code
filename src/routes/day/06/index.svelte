@@ -62,9 +62,7 @@
 
 	function evolveBays(dataset: number[], days: number): number {
 		let bay = convert(dataset);
-		console.log('init', bay);
 		for (let i = 0; i < days; i++) {
-			console.log('day', i, bay);
 			bay = bayPassed(bay);
 		}
 
