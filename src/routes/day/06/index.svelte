@@ -71,7 +71,7 @@
 
 </script>
 
-<h1>Day 05</h1>
+<h1>Day 06</h1>
 <label>
 	<input type=checkbox bind:value={isRealDataset}>
 	Toggle Real Data
