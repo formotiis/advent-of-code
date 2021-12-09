@@ -20,7 +20,6 @@
 			gamma = gamma.concat(isGammaOne ? '1' : '0');
 			epsilon = epsilon.concat(isGammaOne ? '0' : '1');
 		}
-		console.log(gamma, epsilon);
 		return parseInt(gamma, 2) * parseInt(epsilon, 2);
 	}
 

@@ -93,9 +93,6 @@
 				vect => addPointsOfVector(vect, store, inclDiag)
 			);
 
-		if (inclDiag) {
-			console.log(store);
-		}
 		return store.filter(se => se.n > 1).length;
 	}
 
