@@ -8,3 +8,4 @@
 <p>Day <a href='/day/07'>07</a></p>
 <p>Day <a href='/day/08'>08</a></p>
 <p>Day <a href='/day/09'>09</a></p>
+<p>Day <a href='/day/10'>10</a></p>

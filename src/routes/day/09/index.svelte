@@ -1,6 +1,5 @@
 <script lang='ts'>
 
-
 	import { Day09Real, Day09Test } from './dataset';
 
 	const real = Day09Real;
