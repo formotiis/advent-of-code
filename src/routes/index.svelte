@@ -10,3 +10,5 @@
 <p>Day <a href='/day/09'>09</a></p>
 <p>Day <a href='/day/10'>10</a></p>
 <p>Day <a href='/day/11'>11</a></p>
+<p>Day <a href='/day/12'>12</a></p>
+<p>Day <a href='/day/13'>13</a></p>
