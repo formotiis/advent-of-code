@@ -57,9 +57,6 @@
 			arr => +arr[1]
 		);
 
-		console.log('POLYMER', count);
-
-
 		return Math.max(...countArr) - Math.min(...countArr);
 	}
 
@@ -133,8 +130,6 @@
 			count.set(key, value/2)
 		);
 		const countArr: number[] = Array.from(count.values());
-		console.log('pairs', pairs, 'count', count);
-
 
 		return Math.max(...countArr) - Math.min(...countArr);
 	}
