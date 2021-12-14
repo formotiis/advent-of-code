@@ -51,13 +51,13 @@
 
 			for (let x = 0; x < maxY+1; x++) {
 				for (let y = 0; y < maxX+1; y++) {
-				map[x].push('.');
+				map[x].push(' ');
 			}
 		}
 
 		input.forEach(
 			c => {
-				map[c.y][c.x] = 'x'
+				map[c.y][c.x] = '█'
 			}
 		)
 
