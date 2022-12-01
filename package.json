@@ -29,6 +29,7 @@
   },
   "type": "module",
   "dependencies": {
+    "heap-js": "^2.1.6",
     "svelte2tsx": "^0.4.10"
   }
 }

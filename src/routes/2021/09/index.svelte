@@ -68,7 +68,6 @@
 
 	function checkBassin(x: number, y: number, value: number, map: number[][], marks: boolean[][], origin: Direction): number {
 		if (x < 0 || x > map.length - 1 || y < 0 || y > map[x].length - 1) {
-
 			return 0;
 		}
 		if (map[x][y] < (value) || marks[x][y] || map[x][y] === 9) {
